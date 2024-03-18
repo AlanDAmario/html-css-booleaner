@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-size: 30px;
+    
+}
+
+.logo{
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-color: cyan;
+    background-size: cover;
+}
+
