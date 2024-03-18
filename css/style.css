@@ -10,9 +10,10 @@
     
 }
 
-.background{
+header{
     background-image: url(../img/pattern.png);
     background-color: cyan;
     background-size: cover;
+    background-repeat: repeat;
 }
 
