@@ -7,11 +7,57 @@
 
 header{
     background-image: url(../img/pattern.png);
-    background-color: cyan;
-    background-size: cover;
+    background-color: rgb(0, 187, 255);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+main{
+    margin: 0px 20px;
+}
+h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+/* PRESENTAZIONI IMMAGINI E MARGiNI */
+h2{
+    color: lightgray;
+}
+
+.booleaner{
+    color: rgb(0, 200, 255);
+}
+
+.margin{
+    margin-top: 30px;
+}
+
+.description{
+    font-size: small;
 }
 
 
 .yellow{
     background-color: yellow;
+}
+
+/* TABELLA */
+th, td{
+    width: 5%;
+    
+}
+table{
+    width: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: skyblue;
+    color: white; 
+}
+
+.blue-row{
+    background-color: rgb(0, 136, 255);
 }
